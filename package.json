@@ -18,5 +18,8 @@
   "homepage": "https://github.com/normancarcamo/fns#readme",
   "devDependencies": {
     "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "deep-object-search": "^1.0.0"
   }
 }
