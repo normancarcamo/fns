@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/normancarcamo/fns/issues"
   },
-  "homepage": "https://github.com/normancarcamo/fns#readme"
+  "homepage": "https://github.com/normancarcamo/fns#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
 }
