@@ -1,0 +1,19 @@
+{
+  "name": "@playscode/fns",
+  "version": "1.0.0",
+  "description": "functions for daily usage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/normancarcamo/fns.git"
+  },
+  "author": "Norman Carcamo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/normancarcamo/fns/issues"
+  },
+  "homepage": "https://github.com/normancarcamo/fns#readme"
+}
