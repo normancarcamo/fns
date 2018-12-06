@@ -21,5 +21,8 @@ module.exports = {
       "includeFailureMsg": true,
       "theme": "lightTheme"
     }]
-  ]
+  ],
+  "collectCoverageFrom": [
+    "lib/**/*.js",
+  ],
 };

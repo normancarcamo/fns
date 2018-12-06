@@ -4,7 +4,9 @@ require('jest-extended');
 require('jest-chain');
 
 process.on("unhandledRejection", err => {
-  console.error("TestSuite: unhandledRejection ->", err.message);
+  if (err.message !== "test") {
+    console.error("TestSuite: unhandledRejection ->", err.message);
+  }
 });
 
 process.on("uncaughtException", err => {

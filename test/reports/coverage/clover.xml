@@ -1,151 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1544096861337" clover="3.2.0">
-  <project timestamp="1544096861337" name="All files">
-    <metrics statements="129" coveredstatements="70" conditionals="72" coveredconditionals="18" methods="27" coveredmethods="9" elements="228" coveredelements="97" complexity="0" loc="129" ncloc="129" packages="2" files="3" classes="3">
-      <package name="lib">
-        <metrics statements="122" coveredstatements="65" conditionals="72" coveredconditionals="18" methods="25" coveredmethods="9"/>
-        <file name="errors.js" path="/Users/norman/development/2018/dec/fns/lib/errors.js">
-          <metrics statements="60" coveredstatements="60" conditionals="18" coveredconditionals="18" methods="8" coveredmethods="8"/>
-          <line num="4" count="32" type="cond" truecount="2" falsecount="0"/>
-          <line num="5" count="16" type="stmt"/>
-          <line num="7" count="16" type="stmt"/>
-          <line num="8" count="16" type="cond" truecount="2" falsecount="0"/>
-          <line num="20" count="14" type="stmt"/>
-          <line num="21" count="14" type="stmt"/>
-          <line num="22" count="14" type="stmt"/>
-          <line num="23" count="14" type="cond" truecount="2" falsecount="0"/>
-          <line num="24" count="7" type="stmt"/>
-          <line num="25" count="7" type="stmt"/>
-          <line num="28" count="14" type="stmt"/>
-          <line num="40" count="6" type="stmt"/>
-          <line num="41" count="6" type="stmt"/>
-          <line num="42" count="6" type="stmt"/>
-          <line num="43" count="6" type="cond" truecount="2" falsecount="0"/>
-          <line num="44" count="3" type="stmt"/>
-          <line num="45" count="3" type="stmt"/>
-          <line num="48" count="6" type="stmt"/>
-          <line num="61" count="4" type="stmt"/>
-          <line num="62" count="4" type="stmt"/>
-          <line num="63" count="4" type="stmt"/>
-          <line num="64" count="4" type="cond" truecount="2" falsecount="0"/>
-          <line num="65" count="2" type="stmt"/>
-          <line num="66" count="2" type="stmt"/>
-          <line num="69" count="4" type="stmt"/>
-          <line num="81" count="2" type="stmt"/>
-          <line num="82" count="2" type="stmt"/>
-          <line num="83" count="2" type="stmt"/>
-          <line num="84" count="2" type="cond" truecount="2" falsecount="0"/>
-          <line num="85" count="1" type="stmt"/>
-          <line num="86" count="1" type="stmt"/>
-          <line num="89" count="2" type="stmt"/>
-          <line num="101" count="2" type="stmt"/>
-          <line num="102" count="2" type="stmt"/>
-          <line num="103" count="2" type="stmt"/>
-          <line num="104" count="2" type="cond" truecount="2" falsecount="0"/>
-          <line num="105" count="1" type="stmt"/>
-          <line num="106" count="1" type="stmt"/>
-          <line num="109" count="2" type="stmt"/>
-          <line num="122" count="2" type="stmt"/>
-          <line num="123" count="2" type="stmt"/>
-          <line num="124" count="2" type="stmt"/>
-          <line num="125" count="2" type="cond" truecount="2" falsecount="0"/>
-          <line num="126" count="1" type="stmt"/>
-          <line num="127" count="1" type="stmt"/>
-          <line num="130" count="2" type="stmt"/>
-          <line num="143" count="2" type="stmt"/>
-          <line num="144" count="2" type="stmt"/>
-          <line num="145" count="2" type="stmt"/>
-          <line num="146" count="2" type="cond" truecount="2" falsecount="0"/>
-          <line num="147" count="1" type="stmt"/>
-          <line num="148" count="1" type="stmt"/>
-          <line num="151" count="2" type="stmt"/>
-          <line num="155" count="1" type="stmt"/>
-          <line num="156" count="1" type="stmt"/>
-          <line num="157" count="1" type="stmt"/>
-          <line num="158" count="1" type="stmt"/>
-          <line num="159" count="1" type="stmt"/>
-          <line num="160" count="1" type="stmt"/>
-          <line num="161" count="1" type="stmt"/>
-        </file>
-        <file name="is.js" path="/Users/norman/development/2018/dec/fns/lib/is.js">
-          <metrics statements="62" coveredstatements="5" conditionals="54" coveredconditionals="0" methods="17" coveredmethods="1"/>
-          <line num="2" count="1" type="stmt"/>
-          <line num="7" count="1" type="cond" truecount="0" falsecount="4"/>
-          <line num="9" count="1" type="stmt"/>
-          <line num="14" count="0" type="stmt"/>
-          <line num="15" count="0" type="stmt"/>
-          <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
-          <line num="26" count="0" type="stmt"/>
-          <line num="31" count="0" type="stmt"/>
-          <line num="37" count="0" type="stmt"/>
-          <line num="38" count="0" type="stmt"/>
-          <line num="40" count="0" type="stmt"/>
-          <line num="47" count="0" type="stmt"/>
-          <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
-          <line num="54" count="0" type="stmt"/>
-          <line num="61" count="0" type="cond" truecount="0" falsecount="2"/>
-          <line num="62" count="0" type="stmt"/>
-          <line num="64" count="0" type="stmt"/>
-          <line num="65" count="0" type="cond" truecount="0" falsecount="2"/>
-          <line num="66" count="0" type="stmt"/>
-          <line num="74" count="0" type="stmt"/>
-          <line num="75" count="0" type="stmt"/>
-          <line num="81" count="0" type="stmt"/>
-          <line num="89" count="0" type="cond" truecount="0" falsecount="4"/>
-          <line num="90" count="0" type="stmt"/>
-          <line num="91" count="0" type="cond" truecount="0" falsecount="2"/>
-          <line num="92" count="0" type="stmt"/>
-          <line num="93" count="0" type="cond" truecount="0" falsecount="2"/>
-          <line num="94" count="0" type="stmt"/>
-          <line num="95" count="0" type="cond" truecount="0" falsecount="2"/>
-          <line num="96" count="0" type="stmt"/>
-          <line num="97" count="0" type="cond" truecount="0" falsecount="2"/>
-          <line num="98" count="0" type="stmt"/>
-          <line num="99" count="0" type="stmt"/>
-          <line num="100" count="0" type="stmt"/>
-          <line num="101" count="0" type="stmt"/>
-          <line num="103" count="0" type="stmt"/>
-          <line num="106" count="0" type="stmt"/>
-          <line num="113" count="0" type="cond" truecount="0" falsecount="3"/>
-          <line num="114" count="0" type="stmt"/>
-          <line num="123" count="0" type="stmt"/>
-          <line num="124" count="0" type="stmt"/>
-          <line num="125" count="0" type="stmt"/>
-          <line num="126" count="0" type="stmt"/>
-          <line num="127" count="0" type="stmt"/>
-          <line num="129" count="0" type="cond" truecount="0" falsecount="4"/>
-          <line num="130" count="0" type="stmt"/>
-          <line num="131" count="0" type="cond" truecount="0" falsecount="4"/>
-          <line num="132" count="0" type="stmt"/>
-          <line num="133" count="0" type="cond" truecount="0" falsecount="4"/>
-          <line num="134" count="0" type="stmt"/>
-          <line num="135" count="0" type="cond" truecount="0" falsecount="4"/>
-          <line num="136" count="0" type="stmt"/>
-          <line num="137" count="0" type="cond" truecount="0" falsecount="4"/>
-          <line num="138" count="0" type="stmt"/>
-          <line num="139" count="0" type="cond" truecount="0" falsecount="5"/>
-          <line num="140" count="0" type="stmt"/>
-          <line num="142" count="0" type="stmt"/>
-          <line num="145" count="0" type="stmt"/>
-          <line num="151" count="0" type="stmt"/>
-          <line num="156" count="0" type="cond" truecount="0" falsecount="2"/>
-          <line num="160" count="1" type="stmt"/>
-          <line num="163" count="1" type="stmt"/>
-        </file>
-      </package>
-      <package name="test.config">
-        <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <file name="jest.setup.js" path="/Users/norman/development/2018/dec/fns/test/config/jest.setup.js">
-          <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-          <line num="3" count="2" type="stmt"/>
-          <line num="4" count="2" type="stmt"/>
-          <line num="6" count="2" type="stmt"/>
-          <line num="7" count="0" type="stmt"/>
-          <line num="10" count="2" type="stmt"/>
-          <line num="11" count="0" type="stmt"/>
-          <line num="14" count="2" type="stmt"/>
-        </file>
-      </package>
+<coverage generated="1544111867348" clover="3.2.0">
+  <project timestamp="1544111867348" name="All files">
+    <metrics statements="144" coveredstatements="121" conditionals="64" coveredconditionals="52" methods="32" coveredmethods="24" elements="240" coveredelements="197" complexity="0" loc="144" ncloc="144" packages="1" files="5" classes="5">
+      <file name="errors.js" path="/Users/norman/development/2018/dec/fns/lib/errors.js">
+        <metrics statements="60" coveredstatements="60" conditionals="18" coveredconditionals="18" methods="8" coveredmethods="8"/>
+        <line num="4" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="16" type="stmt"/>
+        <line num="7" count="16" type="stmt"/>
+        <line num="8" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="14" type="stmt"/>
+        <line num="21" count="14" type="stmt"/>
+        <line num="22" count="14" type="stmt"/>
+        <line num="23" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="7" type="stmt"/>
+        <line num="25" count="7" type="stmt"/>
+        <line num="28" count="14" type="stmt"/>
+        <line num="40" count="6" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="42" count="6" type="stmt"/>
+        <line num="43" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="48" count="6" type="stmt"/>
+        <line num="61" count="4" type="stmt"/>
+        <line num="62" count="4" type="stmt"/>
+        <line num="63" count="4" type="stmt"/>
+        <line num="64" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="65" count="2" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="69" count="4" type="stmt"/>
+        <line num="81" count="2" type="stmt"/>
+        <line num="82" count="2" type="stmt"/>
+        <line num="83" count="2" type="stmt"/>
+        <line num="84" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="89" count="2" type="stmt"/>
+        <line num="101" count="2" type="stmt"/>
+        <line num="102" count="2" type="stmt"/>
+        <line num="103" count="2" type="stmt"/>
+        <line num="104" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="105" count="1" type="stmt"/>
+        <line num="106" count="1" type="stmt"/>
+        <line num="109" count="2" type="stmt"/>
+        <line num="122" count="2" type="stmt"/>
+        <line num="123" count="2" type="stmt"/>
+        <line num="124" count="2" type="stmt"/>
+        <line num="125" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="126" count="1" type="stmt"/>
+        <line num="127" count="1" type="stmt"/>
+        <line num="130" count="2" type="stmt"/>
+        <line num="143" count="2" type="stmt"/>
+        <line num="144" count="2" type="stmt"/>
+        <line num="145" count="2" type="stmt"/>
+        <line num="146" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="147" count="1" type="stmt"/>
+        <line num="148" count="1" type="stmt"/>
+        <line num="151" count="2" type="stmt"/>
+        <line num="155" count="1" type="stmt"/>
+        <line num="156" count="1" type="stmt"/>
+        <line num="157" count="1" type="stmt"/>
+        <line num="158" count="1" type="stmt"/>
+        <line num="159" count="1" type="stmt"/>
+        <line num="160" count="1" type="stmt"/>
+        <line num="161" count="1" type="stmt"/>
+      </file>
+      <file name="is.js" path="/Users/norman/development/2018/dec/fns/lib/is.js">
+        <metrics statements="61" coveredstatements="61" conditionals="34" coveredconditionals="34" methods="16" coveredmethods="16"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="578" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="170" type="stmt"/>
+        <line num="11" count="408" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="204" type="stmt"/>
+        <line num="13" count="204" type="stmt"/>
+        <line num="15" count="204" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="25" count="204" type="stmt"/>
+        <line num="26" count="204" type="stmt"/>
+        <line num="32" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="72" type="stmt"/>
+        <line num="42" count="46" type="stmt"/>
+        <line num="47" count="26" type="stmt"/>
+        <line num="53" count="60" type="cond" truecount="2" falsecount="0"/>
+        <line num="60" count="52" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="52" type="stmt"/>
+        <line num="68" count="46" type="cond" truecount="2" falsecount="0"/>
+        <line num="69" count="42" type="stmt"/>
+        <line num="71" count="4" type="stmt"/>
+        <line num="72" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="73" count="4" type="stmt"/>
+        <line num="81" count="62" type="stmt"/>
+        <line num="82" count="62" type="stmt"/>
+        <line num="88" count="28" type="stmt"/>
+        <line num="96" count="36" type="cond" truecount="4" falsecount="0"/>
+        <line num="97" count="2" type="stmt"/>
+        <line num="98" count="2" type="stmt"/>
+        <line num="101" count="34" type="cond" truecount="2" falsecount="0"/>
+        <line num="102" count="8" type="stmt"/>
+        <line num="103" count="8" type="stmt"/>
+        <line num="104" count="8" type="stmt"/>
+        <line num="105" count="8" type="stmt"/>
+        <line num="106" count="8" type="stmt"/>
+        <line num="109" count="26" type="cond" truecount="2" falsecount="0"/>
+        <line num="110" count="6" type="stmt"/>
+        <line num="111" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="112" count="2" type="stmt"/>
+        <line num="113" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="114" count="6" type="stmt"/>
+        <line num="116" count="12" type="stmt"/>
+        <line num="119" count="26" type="stmt"/>
+        <line num="126" count="42" type="stmt"/>
+        <line num="135" count="42" type="stmt"/>
+        <line num="136" count="194" type="cond" truecount="2" falsecount="0"/>
+        <line num="137" count="10" type="stmt"/>
+        <line num="138" count="10" type="stmt"/>
+        <line num="140" count="184" type="stmt"/>
+        <line num="144" count="42" type="stmt"/>
+        <line num="150" count="36" type="stmt"/>
+        <line num="156" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="157" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="159" count="2" type="stmt"/>
+        <line num="162" count="8" type="stmt"/>
+        <line num="166" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="167" count="2" type="stmt"/>
+        <line num="169" count="8" type="stmt"/>
+        <line num="172" count="26" type="stmt"/>
+        <line num="178" count="1" type="stmt"/>
+        <line num="181" count="1" type="stmt"/>
+      </file>
+      <file name="promises.js" path="/Users/norman/development/2018/dec/fns/lib/promises.js">
+        <metrics statements="11" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+      <file name="to.js" path="/Users/norman/development/2018/dec/fns/lib/to.js">
+        <metrics statements="6" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+      <file name="various.js" path="/Users/norman/development/2018/dec/fns/lib/various.js">
+        <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
     </metrics>
   </project>
 </coverage>
