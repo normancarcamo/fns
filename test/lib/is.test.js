@@ -1,7 +1,7 @@
-const is = require('./lib/is');
+const is = require('../../lib/is');
 
 describe("is", () => {
   it("null", () => {
-    // expect(is.null).toBe
+    expect(is.null).toBeFunction();
   });
 });
