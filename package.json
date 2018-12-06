@@ -4,7 +4,7 @@
   "description": "functions for daily usage",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,13 @@
     "jest": "^23.6.0"
   },
   "dependencies": {
-    "deep-object-search": "^1.0.0"
+    "@babel/core": "^7.2.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "deep-object-search": "^1.0.0",
+    "jest-chain": "^1.0.5",
+    "jest-extended": "^0.11.0",
+    "jest-html-reporter": "^2.4.2",
+    "regenerator-runtime": "^0.13.1"
   }
 }
