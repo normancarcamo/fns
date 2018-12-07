@@ -27,7 +27,15 @@ export const input = {
       Promise.resolve(1),
       Promise.reject(new Error('test'))
     ],
-    integer: [ 23, 23, 32434234234, -245 ]
+    integer: [ 23, 23, 32434234234, -245 ],
+    isIPv4Address: [
+      '115.42.150.37',
+      '192.168.0.1',
+      '110.234.52.124',
+      '217.0.0.1',
+      '10.0.2.14',
+      '0.0.0.0'
+    ]
   },
   fail: {
     null: [
@@ -129,6 +137,23 @@ export const input = {
       function(){},
       /* istanbul ignore next */
       () => {}
+    ],
+    isIPv4Address: [
+      undefined, null, [''], [{}], 4.2, '{}',
+      'wdsfsdfsfd', true, false,
+      '123e4567-e89b-12d3-a456-55664240',
+      function(){ let a; }, () => { let e; },
+      /* istanbul ignore next */
+      function(){},
+      /* istanbul ignore next */
+      () => {},
+      234234, 234, 0, 1, 40040404,
+      '.42.150.37',
+      '192.0.1',
+      '110..52.124',
+      '217.a.0.1',
+      '10.120d.2.14',
+      '0.0.0f.0'
     ]
   }
 }

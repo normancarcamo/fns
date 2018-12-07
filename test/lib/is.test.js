@@ -172,4 +172,18 @@ describe("is", () => {
       });
     });
   });
+  describe("isIPv4Address", () => {
+    it("expect to be valid", () => {
+      pass.isIPv4Address.map(v => {
+        expect(is.isIPv4Address(v)).toBeTrue();
+        expect(is.not.isIPv4Address(v)).toBeFalse();
+      });
+    });
+    it("expect to not be valid", () => {
+      fail.isIPv4Address.map(v => {
+        expect(is.isIPv4Address(v)).toBeFalse();
+        expect(is.not.isIPv4Address(v)).toBeTrue();
+      });
+    });
+  });
 });
