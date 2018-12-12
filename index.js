@@ -4,6 +4,7 @@ const various = require('./lib/various');
 const errors = require('./lib/errors');
 const is = require('./lib/is');
 const to = require('./lib/to');
+const logger = require('./lib/logger');
 
 const fns = {
   is,
@@ -11,7 +12,8 @@ const fns = {
   ...promises,
   ...various,
   deepSearch,
-  errors
+  errors,
+  logger
 };
 
 module.exports = fns;
