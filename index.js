@@ -5,6 +5,7 @@ const errors = require('./lib/errors');
 const is = require('./lib/is');
 const to = require('./lib/to');
 const logger = require('./lib/logger');
+const middlewares = require('./lib/middlewares');
 
 const fns = {
   is,
@@ -13,7 +14,8 @@ const fns = {
   ...various,
   deepSearch,
   errors,
-  logger
+  logger,
+  middlewares
 };
 
 module.exports = fns;
