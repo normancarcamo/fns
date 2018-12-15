@@ -49,4 +49,16 @@ describe("to", () => {
 
     afterEach(onAfterEach);
   });
+
+  describe("JSON", () => {
+    it("expect to return the data stringified when input is Object or Array", () => {
+      expect(to.JSON({ enabled : true })).toBeString();
+    });
+    it("expect to throw ValidationError when input is not valid", () => {
+      let inputs = [ null, 1, "skjdnf", undefined, function() {}, () => {} ];
+      for (let input of inputs) {
+        expect(() => to.JSON(input)).toThrowError(/Invalid/);
+      }
+    });
+  });
 });
