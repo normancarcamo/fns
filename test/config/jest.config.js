@@ -23,6 +23,6 @@ module.exports = {
     }]
   ],
   "collectCoverageFrom": [
-    "lib/**/*.js",
+    "lib/**/*.js", "index.js"
   ],
 };

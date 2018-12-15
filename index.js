@@ -12,12 +12,12 @@ const fns = {
   is,
   to,
   get,
-  ...promises,
-  ...various,
-  deepSearch,
-  errors,
   logger,
-  middlewares
+  errors,
+  middlewares,
+  deepSearch,
+  ...promises,
+  ...various
 };
 
 module.exports = fns;
