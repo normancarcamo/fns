@@ -22,4 +22,19 @@ describe("get", () => {
       expect(get.diff.apply(this, pass.diff[1])).toHaveLength(1);
     });
   });
+
+  describe("cwd", () => {
+    it("expect to be a function", () => {
+      expect(get.cwd).toBeFunction();
+    });
+    it("expect to throw error when input is not valid", () => {
+      fail.cwd.map(val => expect(() => get.cwd(val)).toThrow(/Invalid/));
+    });
+    it("expect to return the cwd path when no arguments are passed in", () => {
+      expect(get.cwd()).toBe(process.cwd());
+    });
+    it("expect to return the cwd + path when arguments are passed in", () => {
+      expect(get.cwd('okay')).toBe(`${process.cwd()}/okay`);
+    });
+  });
 });
