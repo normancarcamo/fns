@@ -23,6 +23,8 @@ setup.remove = async () => {
     if (jest.isMockFunction(fs.createWriteStream)) {
       fs.createWriteStream.mockRestore();
     }
+  } else {
+
   }
 };
 

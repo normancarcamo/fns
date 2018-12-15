@@ -18,6 +18,7 @@
   "homepage": "https://github.com/normancarcamo/fns#readme",
   "dependencies": {
     "deep-object-search": "^1.0.0",
+    "fs-extra": "^7.0.1",
     "pino": "^5.10.1",
     "uuid": "^3.3.2"
   },
