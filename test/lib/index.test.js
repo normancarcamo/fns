@@ -7,7 +7,7 @@ describe("index.js", () => {
   it("expect to have lib file names as props", () => {
     expect(fns).toContainKeys([
       "is", "to", "get", "logger", "errors", "middlewares",
-      "deepSearch", "promiseAll"
+      "deepSearch", "promise"
     ]);
   });
 });

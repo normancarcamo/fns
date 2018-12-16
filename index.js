@@ -1,5 +1,4 @@
 const deepSearch = require('deep-object-search');
-const promises = require('./lib/promises');
 const various = require('./lib/various');
 const get = require('./lib/get');
 const errors = require('./lib/errors');
@@ -16,7 +15,6 @@ const fns = {
   errors,
   middlewares,
   deepSearch,
-  ...promises,
   ...various
 };
 
