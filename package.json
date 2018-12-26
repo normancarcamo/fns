@@ -19,7 +19,7 @@
   "dependencies": {
     "deep-object-search": "^1.0.0",
     "fs-extra": "^7.0.1",
-    "pino": "^5.10.1",
+    "pino": "^5.10.5",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
