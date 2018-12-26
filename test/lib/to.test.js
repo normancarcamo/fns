@@ -32,8 +32,8 @@ describe("to", () => {
       expect(to.file("demo", `${__dirname}/demo.txt`)).toResolve();
     });
 
-    it("expect to throw error when input is not valid", async () => {
-      expect(() => to.file(null, null)).toThrowError(/Invalid/);
+    it("expect to reject error when input is not valid", async () => {
+      expect(to.file(null, null)).toReject(/Invalid/);
     });
 
     afterEach(async () => {
