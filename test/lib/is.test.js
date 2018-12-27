@@ -186,4 +186,54 @@ describe("is", () => {
       });
     });
   });
+  describe("date", () => {
+    it("expect to be valid", () => {
+      pass.date.only.map(v => {
+        expect(is.date(v)).toBeTrue();
+        expect(is.not.date(v)).toBeFalse();
+      });
+      pass.date.only.map(v => {
+        expect(is.date.only(v)).toBeTrue();
+        expect(is.not.date.only(v)).toBeFalse();
+      });
+      pass.date.time.map(v => {
+        expect(is.date.time(v)).toBeTrue();
+        expect(is.not.date.time(v)).toBeFalse();
+      });
+      pass.date.iso.map(v => {
+        expect(is.date.iso(v)).toBeTrue();
+        expect(is.not.date.iso(v)).toBeFalse();
+      });
+      pass.date.instance.map(v => {
+        expect(is.date.instance(v)).toBeTrue();
+        expect(is.not.date.instance(v)).toBeFalse();
+      });
+      pass.date.valid.map(v => {
+        expect(is.date.valid(v)).toBeTrue();
+        expect(is.not.date.valid(v)).toBeFalse();
+      });
+    });
+    it("expect to not be valid", () => {
+      fail.date.only.map(v => {
+        expect(is.date(v)).toBeFalse();
+        expect(is.not.date(v)).toBeTrue();
+      });
+      fail.date.time.map(v => {
+        expect(is.date.time(v)).toBeFalse();
+        expect(is.not.date.time(v)).toBeTrue();
+      });
+      fail.date.iso.map(v => {
+        expect(is.date.iso(v)).toBeFalse();
+        expect(is.not.date.iso(v)).toBeTrue();
+      });
+      fail.date.instance.map(v => {
+        expect(is.date.instance(v)).toBeFalse();
+        expect(is.not.date.instance(v)).toBeTrue();
+      });
+      fail.date.valid.map(v => {
+        expect(is.date.valid(v)).toBeFalse();
+        expect(is.not.date.valid(v)).toBeTrue();
+      });
+    });
+  });
 });
